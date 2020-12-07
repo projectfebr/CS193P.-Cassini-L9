@@ -61,11 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				1FEECABA257EB6DD00ACA74B /* Supporting Files */,
+				1FEECABC257EB71D00ACA74B /* ImageViewController.swift */,
 				1FEECAAA257EB5FF00ACA74B /* Main.storyboard */,
 				1FEECABF257EBCE700ACA74B /* DemoURLs.swift */,
 				1FEECAC2257EBE0C00ACA74B /* oval.jpg */,
 				1FEECAB2257EB60400ACA74B /* Info.plist */,
-				1FEECABC257EB71D00ACA74B /* ImageViewController.swift */,
 			);
 			path = "CS193P. Cassini L9";
 			sourceTree = "<group>";

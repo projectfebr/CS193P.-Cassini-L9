@@ -18,19 +18,6 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KbN-Za-kJs">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="896" translatesAutoresizingMaskIntoConstraints="NO" id="oLy-4p-N1S">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="oLy-4p-N1S" secondAttribute="bottom" id="Sum-nc-3RA"/>
-                                    <constraint firstItem="oLy-4p-N1S" firstAttribute="leading" secondItem="KbN-Za-kJs" secondAttribute="leading" id="VXr-uS-PBa"/>
-                                    <constraint firstItem="oLy-4p-N1S" firstAttribute="trailing" secondItem="KbN-Za-kJs" secondAttribute="trailing" id="g97-29-Cbs"/>
-                                    <constraint firstItem="oLy-4p-N1S" firstAttribute="top" secondItem="KbN-Za-kJs" secondAttribute="top" id="kix-3t-3ZR"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="EjV-Tv-B7G"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="G16-hM-VJQ"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CIj-D7-2XK"/>
@@ -43,7 +30,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="oLy-4p-N1S" id="N10-cg-4w6"/>
+                        <outlet property="scrollView" destination="KbN-Za-kJs" id="4iZ-hJ-WUl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMd-td-CGg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
