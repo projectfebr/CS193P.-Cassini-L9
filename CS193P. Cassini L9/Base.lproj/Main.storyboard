@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mvq-UW-wJa">
-                                <rect key="frame" x="144.5" y="377" width="125" height="196"/>
+                                <rect key="frame" x="144.5" y="350" width="125" height="196"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyL-jG-5Mb">
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="60"/>
@@ -118,7 +118,7 @@
         <!--Split View Controller-->
         <scene sceneID="qa0-t3-T2w">
             <objects>
-                <splitViewController allowDoubleColumnStyle="YES" id="ihh-7o-mTM" sceneMemberID="viewController">
+                <splitViewController id="ihh-7o-mTM" sceneMemberID="viewController">
                     <connections>
                         <segue destination="gKA-PX-aIl" kind="relationship" relationship="masterViewController" id="3BE-Ea-9QX"/>
                         <segue destination="hLU-Eo-mwK" kind="relationship" relationship="detailViewController" id="Ezc-LX-giI"/>

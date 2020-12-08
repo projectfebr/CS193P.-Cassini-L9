@@ -9,6 +9,12 @@ import UIKit
 
 class CassiniViewController: UIViewController {
 
+    override func awakeFromNib() {
+        print(#function)
+        splitViewController?.delegate = self
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier{
             if let url = DemoURLs.NASA[identifier] {
@@ -20,6 +26,7 @@ class CassiniViewController: UIViewController {
             }
         }
     }
+    
 }
 
 extension UIViewController {
@@ -32,5 +39,12 @@ extension UIViewController {
         else {
             return self
         }
+    }
+}
+
+extension UIViewController: UISplitViewControllerDelegate  {
+    public func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
+        print(#function)
+        return true
     }
 }

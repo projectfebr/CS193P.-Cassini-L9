@@ -7,7 +7,13 @@
 
 import UIKit
 
-class ImageViewController: UIViewController {
+class ImageViewController: UIViewController{
+    
+//    override func awakeFromNib() {
+//        print(#function)
+//        splitViewController?.delegate = self
+//    }
+    
     var imageView = UIImageView()
     var imageURL: URL? {
         didSet {
@@ -76,3 +82,9 @@ extension ImageViewController: UIScrollViewDelegate {
         return imageView
     }
 }
+
+//extension UIViewController: UISplitViewControllerDelegate  {
+//    public func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
+//        false
+//    }
+//}
